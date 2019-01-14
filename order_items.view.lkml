@@ -38,8 +38,8 @@ view: order_items {
     sql: ${TABLE}.sale_price ;;
   }
 
-  measure: total_sale_price {
-    type: sum
+  measure: average_sale_price {
+    type: average
     sql: ${sale_price} ;;
   }
 
